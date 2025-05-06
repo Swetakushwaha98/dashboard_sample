@@ -1,0 +1,1470 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard sample</title>
+  <meta name="author" content="Sweta kushwaha">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../public/css/style.css">
+  <link rel="stylesheet" href="../public/css/_global.css">
+
+</head>
+
+<body>
+
+  <div class="app">
+    <div class="sidebar" id="sidebar">
+      <div class="logo-details">
+       <p>logo</p>
+
+        <button class="close-btn" aria-label="Close sidebar">
+          <i class="fa-solid fa-xmark" style="font-size:20px; background-color: white;"></i>
+        </button>
+      </div>
+      <!-- ///// -->
+      <ul class="nav-links">
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link active" href="JavaScript:void(0)">
+            <div>
+              <i class="fa-solid fa-gauge"></i><span>Dashboard</span>
+            </div>
+          </a>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+              </a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+              </a>
+
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link " href="JavaScript:void(0)">
+            <div>
+              <i class="fa-solid fa-gauge"></i><span>Dashboard</span>
+            </div>
+          </a>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link " href="JavaScript:void(0)">
+            <div>
+              <i class="fa-solid fa-gauge"></i><span>Dashboard</span>
+            </div>
+          </a>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+              </a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+              </a>
+
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link " href="JavaScript:void(0)">
+            <div>
+              <i class="fa-solid fa-gauge"></i><span>Dashboard</span>
+            </div>
+          </a>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link " href="JavaScript:void(0)">
+            <div>
+              <i class="fa-solid fa-gauge"></i><span>Dashboard</span>
+            </div>
+          </a>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+              </a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+              </a>
+
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+        <li class="nav-item">
+          <a class="nav-link submenu-toggle">
+            <div>
+              <i class="fa fa-book"></i>
+              <span>Menu Link </span>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item">
+              <a class="nav-link submenu-toggle">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  <span>Sub Menu Link</span>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 1</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Title">
+                    <div>
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Sub Menu Link 2</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link submenu-toggle">
+                    <div>
+                      <i class="fa-solid fa-earth-americas"></i>
+                      <span>Another Sub Menu</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 1</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" title="Title">
+                        <div>
+                          <i class="fa-solid fa-school-flag"></i>
+                          <span>Sub Sub Menu Link 2</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ///// -->
+
+      </ul>
+    </div>
+
+
+    <section class="home-section">
+      <div class="home-content">
+        <div class="navbar">
+          <i class="fa-solid fa-bars" style="color: #ffffff; font-size: 20px;" class="nev_open"
+            onclick="toggleSidebar()"></i>
+            <div class="session">
+              <p>Academic Session</p>
+              <select name="" id="">
+                <option value="">Select</option>
+                <option value="">2019 - 2020</option>
+                <option value="">2020 - 2021</option>
+                <option value="">2021 - 2022</option>
+                <option value="">2022 - 2023</option>
+              </select>
+            </div>
+  <div class="nav_click">
+    <button id="darkModeToggle">
+      <i class="fa-solid fa-sun"></i>
+    </button>
+    <button id="refresh"><i class="fa-solid fa-arrows-rotate" id="refreshIcon"></i></button>
+  </div>
+        
+
+          
+          <div class="employee_profile" id="profileBtn">
+            <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+            <p>sweta kushwaha</p>
+            <i class="fa-solid fa-circle-down"></i>
+          </div>
+
+          <div class="profile_options" id="profileOptions">
+            <ul>
+
+              <li><a href="#"><i class="fa-solid fa-id-badge"></i><span>View Profile</span></a></li>
+              <li><a href="#"><i class="fa-solid fa-gear"></i><span>Settings</span></a></li>
+              <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i><span>Logout</span></a></li>
+            </ul>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+      <section class="page_content">
+
+        <!-- all page content here start -->
+        <div class="page_body">
+          <div class="card_half">
+            <div class="card ">
+              <div class="card_header">
+                <i class="fa-solid fa-globe"></i>
+                <h5>Admission Desk</h5>
+              </div>
+              <div class="card_content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptas molestias. Eligendi a
+                  molestiae dolor aspernatur minus, voluptate provident laborum, ullam obcaecati perspiciatis,
+                  praesentium
+                  doloribus itaque corrupti nihil doloremque fugit officiis quisquam non facere voluptatem quibusdam
+                  est?
+                  Expedita at perspiciatis quis ducimus? Accusamus inventore atque nesciunt tenetur deleniti quia enim
+                  dicta culpa dolorum amet! Assumenda totam earum dolorum, ex praesentium ipsam, expedita hic
+                  repudiandae
+                  ad eum magnam quos quae, odit reiciendis! Nam consequuntur iure iste porro nemo optio numquam quasi
+                  odit
+                  placeat modi? Esse, temporibus consectetur voluptas numquam, inventore repellendus eos exercitationem
+                  tenetur voluptatibus ad dignissimos dolor eaque nobis voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptas molestias. Eligendi a
+                  molestiae dolor aspernatur minus, voluptate provident laborum, ullam obcaecati perspiciatis,
+                  praesentium
+                  doloribus itaque corrupti nihil doloremque fugit officiis quisquam non facere voluptatem quibusdam
+                  est?
+                  Expedita at perspiciatis quis ducimus? Accusamus inventore atque nesciunt tenetur deleniti quia enim
+                  dicta culpa dolorum amet! Assumenda totam earum dolorum, ex praesentium ipsam, expedita hic
+                  repudiandae
+                  ad eum magnam quos quae, odit reiciendis! Nam consequuntur iure iste porro nemo optio numquam quasi
+                  odit
+                  placeat modi? Esse, temporibus consectetur voluptas numquam, inventore repellendus eos exercitationem
+                  tenetur voluptatibus ad dignissimos dolor eaque nobis voluptatem?</p>
+              </div>
+            </div>
+            <div class="card ">
+              <div class="card_header">
+                <i class="fa-solid fa-globe"></i>
+                <h5>Admission Desk</h5>
+              </div>
+              <div class="card_content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptas molestias. Eligendi a
+                  molestiae dolor aspernatur minus, voluptate provident laborum, ullam obcaecati perspiciatis,
+                  praesentium
+                  doloribus itaque corrupti nihil doloremque fugit officiis quisquam non facere voluptatem quibusdam
+                  est?
+                  Expedita at perspiciatis quis ducimus? Accusamus inventore atque nesciunt tenetur deleniti quia enim
+                  dicta culpa dolorum amet! Assumenda totam earum dolorum, ex praesentium ipsam, expedita hic
+                  repudiandae
+                  ad eum magnam quos quae, odit reiciendis! Nam consequuntur iure iste porro nemo optio numquam quasi
+                  odit
+                  placeat modi? Esse, temporibus consectetur voluptas numquam, inventore repellendus eos exercitationem
+                  tenetur voluptatibus ad dignissimos dolor eaque nobis voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptas molestias. Eligendi a
+                  molestiae dolor aspernatur minus, voluptate provident laborum, ullam obcaecati perspiciatis,
+                  praesentium
+                  doloribus itaque corrupti nihil doloremque fugit officiis quisquam non facere voluptatem quibusdam
+                  est?
+                  Expedita at perspiciatis quis ducimus? Accusamus inventore atque nesciunt tenetur deleniti quia enim
+                  dicta culpa dolorum amet! Assumenda totam earum dolorum, ex praesentium ipsam, expedita hic
+                  repudiandae
+                  ad eum magnam quos quae, odit reiciendis! Nam consequuntur iure iste porro nemo optio numquam quasi
+                  odit
+                  placeat modi? Esse, temporibus consectetur voluptas numquam, inventore repellendus eos exercitationem
+                  tenetur voluptatibus ad dignissimos dolor eaque nobis voluptatem?</p>
+              </div>
+            </div>
+          </div>
+          <div class="card_full">
+            <div class="card ">
+              <div class="card_header">
+                <i class="fa-solid fa-globe"></i>
+                <h5>Admission Desk</h5>
+              </div>
+              <div class="card_content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptas molestias. Eligendi a
+                  molestiae dolor aspernatur minus, voluptate provident laborum, ullam obcaecati perspiciatis,
+                  praesentium
+                  doloribus itaque corrupti nihil doloremque fugit officiis quisquam non facere voluptatem quibusdam
+                  est?
+                  Expedita at perspiciatis quis ducimus? Accusamus inventore atque nesciunt tenetur deleniti quia enim
+                  dicta culpa dolorum amet! Assumenda totam earum dolorum, ex praesentium ipsam, expedita hic
+                  repudiandae
+                  ad eum magnam quos quae, odit reiciendis! Nam consequuntur iure iste porro nemo optio numquam quasi
+                  odit
+                  placeat modi? Esse, temporibus consectetur voluptas numquam, inventore repellendus eos exercitationem
+                  tenetur voluptatibus ad dignissimos dolor eaque nobis voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptas molestias. Eligendi a
+                  molestiae dolor aspernatur minus, voluptate provident laborum, ullam obcaecati perspiciatis,
+                  praesentium
+                  doloribus itaque corrupti nihil doloremque fugit officiis quisquam non facere voluptatem quibusdam
+                  est?
+                  Expedita at perspiciatis quis ducimus? Accusamus inventore atque nesciunt tenetur deleniti quia enim
+                  dicta culpa dolorum amet! Assumenda totam earum dolorum, ex praesentium ipsam, expedita hic
+                  repudiandae
+                  ad eum magnam quos quae, odit reiciendis! Nam consequuntur iure iste porro nemo optio numquam quasi
+                  odit
+                  placeat modi? Esse, temporibus consectetur voluptas numquam, inventore repellendus eos exercitationem
+                  tenetur voluptatibus ad dignissimos dolor eaque nobis voluptatem?</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+
+
+        </div>
+
+        <!-- all page content here end -->
+
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <p>Sweta kushwaha © Dashboard Sample</p>
+        </div>
+      </footer>
+
+
+
+
+
+    </section>
+
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../public/js/script.js"></script>
+</body>
+
+</html>
